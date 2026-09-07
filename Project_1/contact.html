@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExploreWithLuxe - Contact</title>
+    <meta name= "description" content="Get in touch with ExploreWithLuxe to book your dream vacation.">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">ExploreWithLuxe</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="container p-3">
+        <h1 class="my-4">Contact Us</h1>
+        <img src="/images/contactusbanner.jpg" alt="Contact Us" class="img-fluid my-3">
+        <p>ExploreWithLuxe is committed to keeping your personal information safe. We take your privacy seriously, therefore your personal information will not be shared with any third parties.</p>
+        <p>If you have questions about booking cancellation, reschedule or refund, send us an email via explorewithluxe@gmail.com.</p>
+        <p>Have any other questions or need assistance planning your next adventure? Get in touch with us by filling the form below!</p>
+        <form action="https://www.w3schools.com/action_page.php" method="post">
+            <div class="mb-3">
+                <label for="name" class="form-label">Name:</label>
+                <input type="text" id="name" name="name" class="form-control" placeholder="Enter your full name" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email:</label>
+                <input type="email" id="email" name="email" class="form-control" placeholder="Enter your email address" required>
+            </div>
+            <div class="mb-3">
+                <label for="number" class="form-label">Phone Number:</label>
+                <input type="tel" id="number" name="number" class="form-control" placeholder="Enter your phone number" maxlength="15" required>
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message:</label>
+                <textarea id="message" name="message" class="form-control" rowa="4" placeholder="Write your message here..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+    </main>
+</body>
+</html>
